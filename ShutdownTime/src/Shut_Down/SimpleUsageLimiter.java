@@ -12,7 +12,7 @@ import java.util.List;
 
 public class SimpleUsageLimiter {
 	private static final int LIMIT_MINUTES = 120;
-	private static final String FILE = "usage.txt";
+	private static final String FILE = "C:\\SD\\ShutdownTime\\usage.txt";
 	private static final DateTimeFormatter FORMAT = DateTimeFormatter.ofPattern("d/M/yyyy");
 
 	public static void main(String[] args) throws Exception {
